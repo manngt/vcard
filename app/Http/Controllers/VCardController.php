@@ -37,10 +37,10 @@ class VCardController extends Controller
 //return $vcard->getOutput();
 
 // return vcard as a download
-        return $vcard->download();
+        //return $vcard->download();
 
 // save vcard on disk
-//$vcard->setSavePath('/path/to/directory');
+return $vcard->setSavePath('/');
 //$vcard->save();
     }
 }
